@@ -6,8 +6,7 @@
     <arg name="model_path" default="$(find-pkg-share lidar_centerpoint)/data"/>
     <arg name="model_param_path" default="$(find-pkg-share lidar_centerpoint)/config/$(var model_name).param.yaml"/>
 
-    <node pkg="lidar_centerpoint" exec="lidar_centerpoint_node"
-          name="lidar_centerpoint" output="screen">
+    <node pkg="lidar_centerpoint" exec="lidar_centerpoint_node" name="lidar_centerpoint" output="screen">
       <remap from="~/input/pointcloud" to="$(var input/pointcloud)"/>
       <remap from="~/output/objects" to="$(var output/objects)"/>
       <param name="score_threshold" value="0.45"/>

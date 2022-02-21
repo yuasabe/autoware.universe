@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-
 <launch>
   <arg name="input/object0" default="object0"/>
   <arg name="input/object1" default="object1"/>

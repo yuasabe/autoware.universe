@@ -11,9 +11,9 @@
   <arg name="tf_output_frame" default="base_link" desc=""/>
 
   <include file="$(find-pkg-share pointcloud_preprocessor)/launch/preprocessor.launch.py">
-    <param name="input_points_raw_list" value="$(var input_points_raw_list)" />
-    <param name="output_points_raw" value="$(var output_points_raw)" />
-    <param name="tf_output_frame" value="$(var tf_output_frame)" />
+    <param name="input_points_raw_list" value="$(var input_points_raw_list)"/>
+    <param name="output_points_raw" value="$(var output_points_raw)"/>
+    <param name="tf_output_frame" value="$(var tf_output_frame)"/>
   </include>
 
 </launch>

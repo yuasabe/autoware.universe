@@ -12,16 +12,16 @@
     <build_depend>rclcpp</build_depend>
     <build_depend>sensor_msgs</build_depend>
 
-    <depend>cgal</depend>
-    <depend>lanelet2_core</depend>
-    <depend>lanelet2_io</depend>
-    <depend>lanelet2</depend>
-    
+    <depend>autoware_auto_common</depend>
     <depend>autoware_auto_mapping_msgs</depend>
     <depend>autoware_auto_planning_msgs</depend>
-    <depend>autoware_auto_common</depend>
-    <depend>visualization_msgs</depend>
+    <depend>cgal</depend>
     <depend>geometry_msgs</depend>
+    <depend>lanelet2</depend>
+    <depend>lanelet2_core</depend>
+    <depend>lanelet2_io</depend>
+    <depend>visualization_msgs</depend>
+
 
     <test_depend>ament_cmake_gtest</test_depend>
     <test_depend>ament_lint_auto</test_depend>
