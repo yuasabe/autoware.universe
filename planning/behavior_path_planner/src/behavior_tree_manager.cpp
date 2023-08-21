@@ -45,8 +45,8 @@ void BehaviorTreeManager::createBehaviorTree()
       logger_, "Failed to create BT from: %s", bt_manager_param_.bt_tree_config_path.c_str());
     exit(EXIT_FAILURE);
   }
-  addGrootMonitoring(
-    &bt_tree_, bt_manager_param_.groot_zmq_publisher_port, bt_manager_param_.groot_zmq_server_port);
+  // addGrootMonitoring(
+  //   &bt_tree_, bt_manager_param_.groot_zmq_publisher_port, bt_manager_param_.groot_zmq_server_port);
 }
 
 void BehaviorTreeManager::registerSceneModule(const std::shared_ptr<SceneModuleInterface> & module)
